@@ -1,0 +1,29 @@
+.input-form {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+.input-field {
+  margin-right: 25px;
+}
+.input-field-name {
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.content-box {
+  margin-top: 10px;
+  resize: none;
+  width: 500px;
+  height: 180px;
+}
+
+.content {
+  display: flex;
+}
+
+.submit-button {
+  margin: 10px 0px;
+}
