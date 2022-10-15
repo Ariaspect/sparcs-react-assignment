@@ -28,14 +28,14 @@ function App() {
     if(submit) {
       setTodoState([...todoState, submit])
     }
-  }, [todoState, submit]);
+  }, [submit]);
 
   useEffect(() => {
       if(remove) {
         setTodoState(todoState);
         setRemove(false);
       }
-  }, [todoState, remove]);
+  }, [remove]);
 
   return (
     <div className="App">
