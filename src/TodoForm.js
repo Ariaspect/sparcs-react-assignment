@@ -1,4 +1,4 @@
-import React, {Component, useState} from 'react';
+import React, {Component} from 'react';
 import './TodoForm.css';
 
 const data = (title, content, priority, due) => {
@@ -54,7 +54,7 @@ class TodoForm extends Component {
                         <textarea id="content" name="content" rows="5" cols="33" className="content-box"></textarea>
                     </div>
                     <div>
-                        <input className="submit-botton" type="submit" value="Apply"></input>
+                        <input className="submit-button" type="submit" value="Apply"></input>
                     </div>
                 </section>
             </form>
